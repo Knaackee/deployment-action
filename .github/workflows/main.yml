@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: knaackee/deployment-action@lastest
+        uses: knaackee/deployment-action@v2
         with:
           who-to-greet: "knaackee!!a"
       # Use the output from the `hello` step
